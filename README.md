@@ -1,4 +1,4 @@
-# Crawling
+# Web Crawling
 Web crawling refers to the process of systematically browsing and indexing the content of websites. This essential task is carried out by automated bots or spiders, commonly known as web crawlers. The primary objective of crawling is to gather comprehensive information about web pages, making this data accessible to search engines and various applications.
 
 ## Key Points:
