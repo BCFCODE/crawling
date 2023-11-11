@@ -1,6 +1,6 @@
-const puppeteer = require('puppeteer');
+import puppeteer from 'puppeteer';
 
-async function scrapeData() {
+const scrapeData = async () => {
   // Launch a headless browser
   const browser = await puppeteer.launch({ headless: 'new' });
 
@@ -11,18 +11,18 @@ async function scrapeData() {
   await page.goto('http://www.numericana.com/data/partition.htm');
 
   // Extract the text content of the <pre> tag
-  const data = await page.$eval('pre', pre => pre.textContent);
+  const data = await page.$eval('pre', (pre) => pre.textContent);
 
-  // Split the text into lines and find the line containing '14: 135'
+  // Split the text into lines and find the line containing '15:'
   const lines = data.split('\n');
-  const resultLine = lines.find(line => line.includes('15:'));
+  const resultLine = lines.find((line) => line.includes('15:'));
 
   // Print the result
   console.log(resultLine);
 
   // Close the browser
   await browser.close();
-}
+};
 
 // Run the scraping function
 scrapeData();
