@@ -30,7 +30,7 @@ Front-End Developers:
 <span style="color: yellow;">We are currently training on web crawling. This is an open-source training project, and we invite all developers to join us in developing and training on this project. You can start by creating your first issue, and all your suggestions, challenges, or contributions are welcome.</span>
 
 <p align="center">
-  <a href="https://github.com/BCFCODE">
+  <a href="https://github.com/BCFCODEteam">
     <img src="assets/BCFCODE-LOGO.png" alt="BCFCODE LOGO">
   </a>
 </p>
